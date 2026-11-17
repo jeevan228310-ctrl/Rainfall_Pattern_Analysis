@@ -1,0 +1,60 @@
+{
+    "daily": {
+        "target": "daily",
+        "selected_model": "Gradient Boosting",
+        "observations": 3988,
+        "training_observations": 2552,
+        "validation_observations": 638,
+        "test_observations": 798,
+        "test_mae": 2.2359874757015343,
+        "test_rmse": 4.368517922863244,
+        "test_r2": 0.2900484747736751,
+        "validation_results": [
+            {
+                "model": "Gradient Boosting",
+                "validation_mae": 2.446108309184716
+            },
+            {
+                "model": "Random Forest",
+                "validation_mae": 2.7503735916194114
+            },
+            {
+                "model": "Linear Regression",
+                "validation_mae": 2.928361606284804
+            },
+            {
+                "model": "Mean Baseline",
+                "validation_mae": 3.6575586423089397
+            }
+        ]
+    },
+    "monthly": {
+        "target": "monthly",
+        "selected_model": "Gradient Boosting",
+        "observations": 120,
+        "training_observations": 76,
+        "validation_observations": 20,
+        "test_observations": 24,
+        "test_mae": 40.96654202919694,
+        "test_rmse": 51.79527999671512,
+        "test_r2": 0.5582824316961643,
+        "validation_results": [
+            {
+                "model": "Gradient Boosting",
+                "validation_mae": 50.73113069127578
+            },
+            {
+                "model": "Random Forest",
+                "validation_mae": 52.114630480663166
+            },
+            {
+                "model": "Linear Regression",
+                "validation_mae": 56.08711164855957
+            },
+            {
+                "model": "Mean Baseline",
+                "validation_mae": 57.94171052631581
+            }
+        ]
+    }
+}

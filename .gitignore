@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Large datasets (review before uploading)
+# Uncomment if datasets should not be uploaded
+# data/raw/
+    
